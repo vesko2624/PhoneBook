@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{f02c50c3-2676-42a3-bced-eb8cb7830009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Tables">
+      <UniqueIdentifier>{a6905f3a-a94b-4ca8-92be-8b7f7fb84897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Accessors">
+      <UniqueIdentifier>{a02c61bf-9a54-45e1-8e11-64c1841e44e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{f9aaf081-2368-44c4-9750-c6320c7c1c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Tables">
+      <UniqueIdentifier>{c713a2e8-29a5-40b0-b949-979f09a062eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Documents">
+      <UniqueIdentifier>{2485758c-8623-41e6-81e4-d4aaa1e6fdac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views">
+      <UniqueIdentifier>{5dafdb36-4927-41af-85de-12d6a02efece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Documents">
+      <UniqueIdentifier>{d72ef46f-6173-4b11-bb7f-52d729128a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Views">
+      <UniqueIdentifier>{e93e9e8c-1109-46ef-b0d7-e2e3abcaf5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data">
+      <UniqueIdentifier>{0d67fd43-5f83-47f6-bdd8-2ab3ed3ef773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\App">
+      <UniqueIdentifier>{37b11e34-0dfc-4a95-9166-2616c5f98acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{8a08f041-a66b-492e-b0ce-94e6229d881d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MFC Libs">
+      <UniqueIdentifier>{08024466-62e1-4c84-9bcd-6d484e9adfae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{a79557a9-0ae2-48a9-948d-303bf5a14e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs">
+      <UniqueIdentifier>{8d5ab2ed-43d6-4dd9-8d98-c6632f45b64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs">
+      <UniqueIdentifier>{12d57bc4-8084-455c-bbf0-06fa109a7e5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\includes\Structures.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneBook.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\MFC Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\MFC Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files\MFC Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files\MFC Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="CitiesView.h">
+      <Filter>Header Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="CitiesDocument.h">
+      <Filter>Header Files\Documents</Filter>
+    </ClInclude>
+    <ClInclude Include="CitiesData.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\includes\QueryExecutor.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\includes\PtrArrayManager.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\includes\DatabaseConnectionManager.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\includes\PhoneTypesTable.h">
+      <Filter>Header Files\Core\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\includes\PhoneNumbersTable.h">
+      <Filter>Header Files\Core\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\includes\PersonsTable.h">
+      <Filter>Header Files\Core\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\includes\DatabaseTables.h">
+      <Filter>Header Files\Core\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\includes\CitiesTable.h">
+      <Filter>Header Files\Core\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\includes\PhoneTypesAccessor.h">
+      <Filter>Header Files\Core\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\includes\PhoneNumbersAccessor.h">
+      <Filter>Header Files\Core\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\includes\PersonsAccessor.h">
+      <Filter>Header Files\Core\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\includes\CitiesAccessor.h">
+      <Filter>Header Files\Core\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="CitiesDlg.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CListSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\includes\TableStatusManager.h">
+      <Filter>Header Files\Core\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonsData.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonsDocument.h">
+      <Filter>Header Files\Documents</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonsDlg.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneTypesData.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneNumbersDlg.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="IterableMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneTypesDocument.h">
+      <Filter>Header Files\Documents</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneTypesView.h">
+      <Filter>Header Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneTypesDlg.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonsView.h">
+      <Filter>Header Files\Views</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneBook.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="CitiesView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="CitiesDocument.cpp">
+      <Filter>Source Files\Documents</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\DatabaseConnectionManager.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\PhoneTypesTable.cpp">
+      <Filter>Source Files\Core\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\PhoneNumbersTable.cpp">
+      <Filter>Source Files\Core\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\PersonsTable.cpp">
+      <Filter>Source Files\Core\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\CitiesTable.cpp">
+      <Filter>Source Files\Core\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="CitiesData.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="CitiesDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHandler.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonsData.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonsDocument.cpp">
+      <Filter>Source Files\Documents</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonsView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonsDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneTypesData.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneNumbersDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneTypesDocument.cpp">
+      <Filter>Source Files\Documents</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneTypesView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneTypesDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PhoneBook.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PhoneBook.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PhoneBookDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PhoneBook.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
